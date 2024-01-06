@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useState,useEffect } from "react";
 import ReactPaginate from 'react-paginate';
 import "./MovieItem.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { addmovie, decreaseCounter, increaseCounter, removemovie } from "../store/slices/counter";
 
 
@@ -33,9 +33,7 @@ const MoveiItem = (props) => {
      setCurrentItems((prevMovies)=>
      prevMovies.map((movie)=>
      movie.id===movieId?{ ...movie, liked: !movie.liked } : movie
-     )
-     )
-    }
+     ))}
   return (
     <div className="row justify-content-evenly gap-4">
       {currentItems.map((movie) => {
