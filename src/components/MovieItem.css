@@ -1,0 +1,46 @@
+.movieItem{
+    border: 1px solid grey;
+    box-shadow: 3px 4px 3px rgb(207, 203, 203);
+    border-radius: 20px;
+    height: 350px;
+}
+.movieItem a{
+    color: black;
+    text-decoration: none;
+}
+.movieTitle{
+    cursor: pointer;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 70px;
+    font-size:1.2rem;
+    gap: 5px;
+ }
+ .pagination .page-num{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+ }
+ .pagination .page-num:hover{
+    background-color: #5a5e5e;
+    color: white;
+ }
+ .pagination .active{
+    background-color:#5a5e5e;
+ }
+ .pagination .next a:hover{
+   color: white !important;
+   background-color: #5a5e5e;
+   padding: 8px 6px;
+   border-radius: 5px;
+ }
+ 
+a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+ }

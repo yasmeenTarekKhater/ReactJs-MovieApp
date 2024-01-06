@@ -1,0 +1,8 @@
+.watchListItem{
+    border: 1px solid gray;
+    box-shadow: 3px 4px 5px rgb(126, 120, 120);
+    height: 300px;
+}
+.watchlistRemove{
+cursor: pointer;
+}
